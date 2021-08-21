@@ -41,7 +41,7 @@
      session_start();
      $username="";
      $email ="";
-     $db = mysqli_connect('localhost','root','myth@123','register');
+     $db = mysqli_connect('remotemysql.com','75TtNjsCwK','hPi2m2dKYG','75TtNjsCwK');
      if(isset($_POST['register']))
      {
      	$username = mysqli_real_escape_string($db,$_POST['username']);
